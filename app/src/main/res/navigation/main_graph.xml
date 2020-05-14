@@ -1,0 +1,10 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@+id/currency_fragment">
+
+    <fragment
+        android:id="@+id/currency_fragment"
+        android:name="com.vlad.android.currency.exchange.CurrencyFragment" />
+
+</navigation>
